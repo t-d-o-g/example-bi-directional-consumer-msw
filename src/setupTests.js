@@ -12,7 +12,7 @@ const mswPact = setupPactMswAdapter({
   options: {
     consumer: process.env.PACT_CONSUMER ? process.env.PACT_CONSUMER : 'pactflow-example-bi-directional-consumer-msw',
     providers: {
-      [process.env.PACT_PROVIDER ? process.env.PACT_PROVIDER : 'pactflow-example-bi-directional-provider-dredd']: ['products', 'product']
+      [process.env.PACT_PROVIDER ? process.env.PACT_PROVIDER : 'pactflow-example-bi-directional-provider-restassured']: ['products', 'product']
     },
     pactOutDir: './pacts',
     excludeHeaders: ['x-powered-by']
