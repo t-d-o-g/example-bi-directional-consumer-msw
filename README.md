@@ -1,4 +1,4 @@
-# Example NodeJS/React Consumer - Mock Service Worker (BYO Adapter)
+# Example NodeJS/React Consumer - Mock Service Worker (BYO Adapter) 2
 
 <!-- Build Badge -->
 
